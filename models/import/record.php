@@ -928,7 +928,7 @@ class PMXI_Import_Record extends PMXI_Model_Record {
 						}
 					}	
 					else{
-						$logger and call_user_func($logger, sprintf(__('Duplicate post wasn\'n found for post `%s`...', 'wp_all_import_plugin'), $articleData['post_title']));
+						$logger and call_user_func($logger, sprintf(__('Duplicate post wasn\'t found for post `%s`...', 'wp_all_import_plugin'), $articleData['post_title']));
 					}					
 				}
 
